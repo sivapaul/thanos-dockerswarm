@@ -1,5 +1,5 @@
-## Thanos + Docker Swarm
-thanos/bucket_config.yaml
+# Thanos + Docker Swarm
+
 
 ## Configuration changes
 | File Location             | Description                                                |

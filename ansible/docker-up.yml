@@ -1,0 +1,9 @@
+---
+- hosts: monitor
+  become: yes
+  tasks:
+    - name: copy local folder
+      copy:
+        src: thanos-compose/
+        dest: /opt/thanos/
+        remote_src: no

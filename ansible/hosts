@@ -1,0 +1,2 @@
+[monitor]
+monitor01 ansible_ssh_host=54.86.145.140

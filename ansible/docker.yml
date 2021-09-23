@@ -1,0 +1,5 @@
+---
+- hosts: monitor
+  become: yes
+  roles:
+    - { role: docker-compose, become: yes }

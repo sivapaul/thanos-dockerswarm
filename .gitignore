@@ -30,11 +30,11 @@ override.tf.json
 
 ## Ansible
 ### Ansible ###
-ansible/*.retry
-ansibletmp/
-ansiblesystemcreds
-ansiblecached/
-ansible/ansible/cache
+*.retry
+tmp/
+systemcreds
+.cached/
+**/cache
 ###End Ansible ###
 
 ### VisualStudioCode ###

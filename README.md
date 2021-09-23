@@ -22,5 +22,10 @@
 ```bash
 git clone https://github.com/sivapaul/thanos-dockerswarm.git
 cd thanos-dockerswarm
-docker-compose up -d
+# to create a ec2 instance in AWS with autoapprove 
+make tf-destroy-ap
+# to install docker and docker-compose
+make an-dc-install
+# to copy compose module to remote server
+make an-dc-up
 ```

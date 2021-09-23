@@ -28,15 +28,6 @@ override.tf.json
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
 
-## Ansible
-### Ansible ###
-*.retry
-tmp/
-systemcreds
-.cached/
-**/cache
-###End Ansible ###
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
